@@ -1957,6 +1957,7 @@ textarea:invalid, input:invalid, textarea:required, input:required {
   padding: 0;
   border: 0;
   background-color: transparent;
+  color:#ebebeb;
   font-size: 20px;
   font-weight: 600;
   border-radius: 0;
