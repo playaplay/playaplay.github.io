@@ -72,7 +72,7 @@ body {
 
 ::-webkit-scrollbar-thumb
 {
-	background-color: rgba(217, 2, 2, 0.945);	
+	background-color: #e0c7e3;	
 	background-image: -webkit-linear-gradient(45deg,
 	                                          rgba(255, 255, 255, .2) 25%,
 											  transparent 25%,
@@ -165,9 +165,9 @@ h6 {
   background: #00aced;
 }
 
-#social-sidebar a[class*="facebook"]:hover,
-#social-sidebar a[class*="facebook"] span,
-#social-sidebar a[class*="facebook"] span:before {
+#social-sidebar a[class*="qq"]:hover,
+#social-sidebar a[class*="qq"] span,
+#social-sidebar a[class*="qq"] span:before {
   background: #3b5998;
 }
 
@@ -183,16 +183,10 @@ h6 {
   background: #ea4c89;
 }
 
-#social-sidebar a[class*="linkedin"]:hover,
-#social-sidebar a[class*="linkedin"] span,
-#social-sidebar a[class*="linkedin"] span:before {
-  background: #0a416e;
-}
-
-#social-sidebar a[class*="github"]:hover,
-#social-sidebar a[class*="github"] span,
-#social-sidebar a[class*="github"] span:before {
-  background: #9c7a5b;
+#social-sidebar a[class*="sina-weibo"]:hover,
+#social-sidebar a[class*="sina-weibo"] span,
+#social-sidebar a[class*="sina-weibo"] span:before {
+  background: #e34429;
 }
 
 a,
@@ -2668,7 +2662,7 @@ footer {
 body {
   height: 100%;
   width: 100%;
-  background: linear-gradient(45deg, yellow, violet, orange, grey);
+  background:#404246;
   background-size: 300% 300%;
   animation: color 5s ease-in-out infinite;
 }
